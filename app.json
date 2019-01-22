@@ -4,7 +4,10 @@
     "slug": "theoplayerexample",
     "privacy": "public",
     "sdkVersion": "32.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,13 +19,25 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "bundleIdentifier": "com.otro.theoplayerexample",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "publishBundlePath": "ios/theoplayerexample/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/theoplayerexample/Supporting/shell-app-manifest.json"
     },
     "android": {
-      "package": "com.otro.theoplayerexample"
-    }
+      "package": "com.otro.theoplayerexample",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.10.1-sdk32.0.0-3add1ca4-c78f-4823-a898-66599a5f6241.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.2-sdk32.0.0-abad3912-7cc0-4e5d-87bb-c59a755a6d97.tar.gz"
+    },
+    "scheme": "expf56a6441442947aea02456736d05da32"
   }
 }

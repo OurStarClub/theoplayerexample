@@ -1,12 +1,12 @@
 import React from "react";
-import { View, Text, TouchableOpacity } from "react-native";
+import { SafeAreaView, Text } from "react-native";
 
 const ItemPage = () => (
-  <View>
+  <SafeAreaView>
     <Text>
       Now press back twice, on android the player should have stopped working.
     </Text>
-  </View>
+  </SafeAreaView>
 );
 
 export default ItemPage;

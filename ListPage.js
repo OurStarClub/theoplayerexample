@@ -1,12 +1,12 @@
 import React from "react";
-import { View, Text, TouchableOpacity } from "react-native";
+import { SafeAreaView, Text, TouchableOpacity } from "react-native";
 
 const ListPage = ({ navigation }) => (
-  <View>
+  <SafeAreaView>
     <TouchableOpacity onPress={() => navigation.navigate("ItemPage")}>
       <Text>GO DEEPER</Text>
     </TouchableOpacity>
-  </View>
+  </SafeAreaView>
 );
 
 export default ListPage;

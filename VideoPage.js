@@ -1,13 +1,13 @@
 import React from "react";
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import { StyleSheet, SafeAreaView } from "react-native";
 import TheoPlayer from "./TheoPlayer";
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
+      <SafeAreaView style={styles.container}>
         <TheoPlayer />
-      </View>
+      </SafeAreaView>
     );
   }
 }

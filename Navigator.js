@@ -1,10 +1,8 @@
-import React from "react";
 import {
   createStackNavigator,
   createAppContainer,
   createBottomTabNavigator
 } from "react-navigation";
-import { Text } from "react-native";
 import VideoPage from "./VideoPage";
 import ListPage from "./ListPage";
 import ItemPage from "./ItemPage";
@@ -34,7 +32,7 @@ const TabNavigator = createBottomTabNavigator(
     CrashStack: {
       screen: CrashStack,
       navigationOptions: {
-        title: "Press here for unmounting bug"
+        title: "Press here for android unmounting bug"
       }
     }
   },

@@ -79,8 +79,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="199" column="56" selection-start-line="199" selection-start-column="56" selection-end-line="199" selection-end-column="56" />
+            <state relative-caret-position="355">
+              <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -4770,7 +4770,7 @@
     <property name="android.project.structure.last.selected" value="theoplayer" />
     <property name="android.project.structure.proportion" value="0.19457832" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="Nexus_5_API_28" />
+    <property name="device.picker.selection" value="288032d2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -5302,8 +5302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="199" column="56" selection-start-line="199" selection-start-column="56" selection-end-line="199" selection-end-column="56" />
+        <state relative-caret-position="355">
+          <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
         </state>
       </provider>
     </entry>

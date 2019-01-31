@@ -34,7 +34,7 @@ const TabNavigator = createBottomTabNavigator(
     CrashStack: {
       screen: CrashStack,
       navigationOptions: {
-        title: "Press Here"
+        title: "Press here for unmounting bug"
       }
     }
   },

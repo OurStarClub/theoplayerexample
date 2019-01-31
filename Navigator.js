@@ -65,7 +65,7 @@ const Navigator = createAppContainer(
     {
       initialRouteName: "Tabs",
       mode: "modal",
-      headerMode: "none",
+      // headerMode: "none",
       transparentCard: true
     }
   )

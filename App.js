@@ -1,22 +1,12 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import TheoPlayer from "./TheoPlayer";
+
+import VideoPage from "./VideoPage";
+import Navigator from "./Navigator";
+
+// if VideoPage is rendered directly here it will play, if it is rendered inside react-navigation it will not.
 
 export default class App extends React.Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <TheoPlayer />
-      </View>
-    );
+    return <Navigator />;
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});

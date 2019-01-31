@@ -49,7 +49,7 @@
       <file leaf-file-name="RCTTHEOplayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
+            <state relative-caret-position="810">
               <caret line="55" column="29" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,10 +63,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-              <folding>
-                <element signature="e#2375#2780#0" expanded="true" />
-                <element signature="e#2779#2780#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -83,8 +79,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="191" column="22" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+            <state relative-caret-position="370">
+              <caret line="199" column="56" selection-start-line="199" selection-start-column="56" selection-end-line="199" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -100,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayerPackage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -4729,7 +4725,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="196" />
+    <option name="y" value="32" />
     <option name="width" value="1680" />
     <option name="height" value="944" />
   </component>
@@ -4739,7 +4736,6 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -4767,6 +4763,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4925,9 +4922,9 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.3293979" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3293979" />
@@ -4964,10 +4961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding>
-            <element signature="e#2375#2780#0" expanded="true" />
-            <element signature="e#2779#2780#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5277,16 +5270,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding>
-            <element signature="e#2375#2780#0" expanded="true" />
-            <element signature="e#2779#2780#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
+        <state relative-caret-position="810">
           <caret line="55" column="29" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -5304,7 +5293,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayerPackage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -5313,8 +5302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="191" column="22" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+        <state relative-caret-position="370">
+          <caret line="199" column="56" selection-start-line="199" selection-start-column="56" selection-end-line="199" selection-end-column="56" />
         </state>
       </provider>
     </entry>

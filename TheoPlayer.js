@@ -1,23 +1,46 @@
 import React from "react";
-import { StyleSheet } from "react-native";
+import { StyleSheet, UIManager, findNodeHandle } from "react-native";
 import { requireNativeComponent } from "react-native";
 
 const RCTTHEOplayer = requireNativeComponent("RCTTHEOplayer", TheoPlayer, {
   nativeOnly: { onUserEvent: true }
 });
 
-// theoPlayerSharedUi: ,
-// theoPlayerSharedCustomSkin: ,
-// theoPlayerSkinNative: ,
-// theoPlayerCustom: '',
-// theoPlayerHideBigPlayButton: 'https://dev1.otro.com/THEOHidePlay.css',
-// theoPlayerPremiumCTA: 'https://dev1.otro.com/THEOPremiumCTA.js',
-// theoPlayerSignupCTA: 'https://dev1.otro.com/THEOSignupCTA.js',
-
 export default class TheoPlayer extends React.Component {
+  video = React.createRef();
+
+  componentDidMount() {
+    console.log("MOUNTED THEOPLAYER");
+    this.play();
+  }
+  play() {
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(this.video.current),
+      UIManager.RCTTHEOplayer.Commands.play,
+      null
+    );
+  }
+
+  pause() {
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(this.video.current),
+      UIManager.RCTTHEOplayer.Commands.pause,
+      null
+    );
+  }
+
+  stop() {
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(this.video.current),
+      UIManager.RCTTHEOplayer.Commands.stop,
+      null
+    );
+  }
+
   render() {
     return (
       <RCTTHEOplayer
+        ref={this.video}
         isEmbeddable={true}
         defaultUIStyle="default"
         autoPlay={false}
@@ -47,9 +70,9 @@ export default class TheoPlayer extends React.Component {
 
           poster: "http://cdn.theoplayer.com/video/big_buck_bunny/poster.jpg"
         }}
+        onError={e => console.error(e)}
 
         // textTracks={this.setSubtitleLabels(textTracks)}
-        // ref={this.video}
         // style={style}
         // onUserEvent={this.onUserEvent}
       />

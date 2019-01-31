@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:theoplayer">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/theoplayer-android-androurstarclub20180426-2.50.0-minapi21-release.aar/6bc15ed32715dd568087529e4dfaab26/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/theoplayer-android-androurstarclub20180426-2.50.0-minapi21-release.aar/6bc15ed32715dd568087529e4dfaab26/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/theoplayer-android-androurstarclub20180426-2.50.0-minapi21-release.aar/6bc15ed32715dd568087529e4dfaab26/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

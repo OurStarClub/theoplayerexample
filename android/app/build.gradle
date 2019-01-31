@@ -188,10 +188,12 @@ dependencies {
     exclude group: 'com.squareup.okhttp3', module: 'okhttp'
     exclude group: 'com.squareup.okhttp3', module: 'okhttp-urlconnection'
   }
-  
 
+  // THEOPLAYER THINGS
+  implementation project(':theoplayer')
+  implementation fileTree(include: ['*.jar'], dir: 'libs')
+  implementation 'com.google.code.gson:gson:2.3.1'
 
-  
   api 'com.facebook.react:react-native:32.0.0'
   api 'host.exp.exponent:expo-app-loader-provider:1.0.0'
   api 'host.exp.exponent:expo-core:2.0.0'

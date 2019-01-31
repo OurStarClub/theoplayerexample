@@ -18,6 +18,7 @@ export default class TheoPlayer extends React.Component {
   render() {
     return (
       <RCTTHEOplayer
+        isEmbeddable={true}
         defaultUIStyle="default"
         autoPlay={false}
         fullscreenOrientationCoupling={true}

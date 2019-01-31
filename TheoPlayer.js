@@ -9,10 +9,6 @@ const RCTTHEOplayer = requireNativeComponent("RCTTHEOplayer", TheoPlayer, {
 export default class TheoPlayer extends React.Component {
   video = React.createRef();
 
-  componentDidMount() {
-    console.log("MOUNTED THEOPLAYER");
-    this.play();
-  }
   play() {
     UIManager.dispatchViewManagerCommand(
       findNodeHandle(this.video.current),

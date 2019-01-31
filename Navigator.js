@@ -65,10 +65,10 @@ const Navigator = createAppContainer(
       }
     },
     {
-      initialRouteName: "Tabs"
-      // mode: "modal",
-      // headerMode: "none",
-      // transparentCard: true
+      initialRouteName: "Tabs",
+      mode: "modal",
+      headerMode: "none",
+      transparentCard: true
     }
   )
 );

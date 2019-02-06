@@ -12,13 +12,13 @@ import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.common.MapBuilder;
 
- import com.theoplayer.android.api.player.track.texttrack.TextTrackKind;
- import com.theoplayer.android.api.source.SourceDescription;
- import com.theoplayer.android.api.source.SourceType;
- import com.theoplayer.android.api.source.TypedSource;
- import com.theoplayer.android.api.source.addescription.THEOplayerAdDescription;
- import com.theoplayer.android.api.source.TextTrackDescription;
- import com.theoplayer.android.api.source.drm.preintegration.XstreamConfiguration;
+import com.theoplayer.android.api.player.track.texttrack.TextTrackKind;
+import com.theoplayer.android.api.source.SourceDescription;
+import com.theoplayer.android.api.source.SourceType;
+import com.theoplayer.android.api.source.TypedSource;
+import com.theoplayer.android.api.source.addescription.THEOplayerAdDescription;
+import com.theoplayer.android.api.source.TextTrackDescription;
+import com.theoplayer.android.api.source.drm.preintegration.XstreamConfiguration;
 
 public class RCTTHEOplayer extends SimpleViewManager<RCTTHEOplayerView> {
     public static final int COMMAND_PLAY = 1;
@@ -173,7 +173,7 @@ public class RCTTHEOplayer extends SimpleViewManager<RCTTHEOplayerView> {
 
     @ReactProp(name = "fullscreenOrientationCoupling")
     public void setFullScreenOrientationCoupling(RCTTHEOplayerView view, boolean fullscreenOrientationCoupling) {
-        // Is it possible to turn this off?
+        view.setFullScreenOrientationCoupling(fullscreenOrientationCoupling);
     }
 
     private @Nullable String[] readableArrayToStringArray(@Nullable ReadableArray input) {

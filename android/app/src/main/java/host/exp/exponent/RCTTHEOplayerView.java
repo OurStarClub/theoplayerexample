@@ -11,10 +11,10 @@ import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.uimanager.events.RCTEventEmitter;
 
- import com.theoplayer.android.api.THEOplayerConfig;
- import com.theoplayer.android.api.THEOplayerView;
- import com.theoplayer.android.api.message.MessageListener;
- import com.theoplayer.android.api.source.SourceDescription;
+import com.theoplayer.android.api.THEOplayerConfig;
+import com.theoplayer.android.api.THEOplayerView;
+import com.theoplayer.android.api.message.MessageListener;
+import com.theoplayer.android.api.source.SourceDescription;
 
 public class RCTTHEOplayerView extends FrameLayout {
     public enum UIStyle {
@@ -114,6 +114,11 @@ public class RCTTHEOplayerView extends FrameLayout {
         if (mPlayerView != null) {
             mPlayerView.onDestroy();
         }
+    }
+
+    public void setFullScreenOrientationCoupling(boolean fullscreenOrientationCoupling) {
+        if (mPlayerView != null)
+            mPlayerView.getSettings().setFullScreenOrientationCoupled(fullscreenOrientationCoupling);
     }
 
     public void setSource(SourceDescription source) {

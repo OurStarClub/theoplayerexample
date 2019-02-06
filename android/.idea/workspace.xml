@@ -49,38 +49,31 @@
       <file leaf-file-name="RCTTHEOplayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="55" column="29" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2197#2198#0" expanded="true" />
+                <element signature="e#2235#2236#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RCTTHEOplayerView.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RCTTHEOplayerView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="331">
+              <caret line="131" column="32" lean-forward="true" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="THEOplayerView.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/theoplayer-android-androurstarclub20180426-2.50.0-minapi21-release.aar/6bc15ed32715dd568087529e4dfaab26/jars/classes.jar!/com/theoplayer/android/api/THEOplayerView.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
+            <state relative-caret-position="3015">
+              <caret line="201" column="43" selection-start-line="201" selection-start-column="43" selection-end-line="201" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -125,6 +118,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>fil</find>
+      <find>orientation</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -4717,16 +4711,15 @@
         <option value="$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTheoPlayer.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayerPackage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayerView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/host/exp/exponent/MainApplication.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayerView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="196" />
-    <option name="y" value="32" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="944" />
   </component>
@@ -4735,7 +4728,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -4762,15 +4757,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.project.structure.last.selected" value="theoplayer" />
     <property name="android.project.structure.proportion" value="0.19457832" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="Nexus_5_API_28" />
+    <property name="device.picker.selection" value="288032d2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -4901,9 +4894,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="944" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="940" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -4913,17 +4907,17 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="7" visible="true" weight="0.3293979" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.32977462" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3293979" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32858837" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3293979" />
@@ -4952,6 +4946,8 @@
           <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2235#2236#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -5258,30 +5254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/theoplayer-android-androurstarclub20180426-2.50.0-minapi21-release.aar/6bc15ed32715dd568087529e4dfaab26/jars/classes.jar!/com/theoplayer/android/api/THEOplayerView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -5301,8 +5273,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
+        <state relative-caret-position="3015">
+          <caret line="201" column="43" selection-start-line="201" selection-start-column="43" selection-end-line="201" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/theoplayer-android-androurstarclub20180426-2.50.0-minapi21-release.aar/6bc15ed32715dd568087529e4dfaab26/jars/classes.jar!/com/theoplayer/android/api/THEOplayerView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="71" column="62" lean-forward="true" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2235#2236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/host/exp/exponent/RCTTHEOplayerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="131" column="32" lean-forward="true" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
         </state>
       </provider>
     </entry>

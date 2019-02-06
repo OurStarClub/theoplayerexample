@@ -47,11 +47,32 @@ public class MainApplication extends ExpoApplication implements AppLoaderPackage
     return Arrays.<ReactPackage>asList(
         // Add your own packages here!
         // TODO: add native modules!
-
+            new RCTTHEOplayerPackage()
         // Needed for `react-native link`
         // new MainReactPackage()
+
     );
   }
+
+//  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+//    @Override
+//    public boolean getUseDeveloperSupport() {
+//      return BuildConfig.DEBUG;
+//    }
+//
+//    @Override
+//    protected List<ReactPackage> getPackages() {
+//      return Arrays.asList(new MainReactPackage(), new ReactVideoPackage(), new RNGestureHandlerPackage(),
+//              new AppboyReactPackage(), new LinearGradientPackage(), new ImagePickerPackage(), new RNDeviceInfo(),
+//              new RNIapPackage(), new FBSDKPackage(mCallbackManager), new RNSentryPackage(),
+//              new RNMixpanel(), , new RCTOAuthPackage());
+//    }
+//
+//    @Override
+//    protected String getJSMainModuleName() {
+//      return "index";
+//    }
+//  };
 
   public List<Package> getExpoPackages() {
     return Arrays.<Package>asList(

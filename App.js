@@ -1,22 +1,8 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import TheoPlayer from "./TheoPlayer";
+import VideoPage from "./VideoPage";
 
 export default class App extends React.Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <TheoPlayer />
-      </View>
-    );
+    return <VideoPage />;
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});

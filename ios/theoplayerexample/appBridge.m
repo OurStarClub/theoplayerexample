@@ -34,8 +34,3 @@ RCT_EXPORT_VIEW_PROPERTY(fullscreenOrientationCoupling, BOOL)
 RCT_EXTERN_METHOD(pause:(nonnull NSNumber *)reactTag)
 @end
 
-@interface RCT_EXTERN_MODULE(RCTThumbnailPreview, RCTViewManager)
-RCT_EXPORT_VIEW_PROPERTY(uri, NSURL)
-RCT_REMAP_VIEW_PROPERTY(resizeMode, contentMode, UIViewContentMode)
-@end
-

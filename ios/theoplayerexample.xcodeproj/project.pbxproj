@@ -11,8 +11,6 @@
 		9726F23E21F6238B00644011 /* THEOplayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9726F23D21F6238B00644011 /* THEOplayerSDK.framework */; };
 		9726F27821F625E800644011 /* THEOplayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9726F23D21F6238B00644011 /* THEOplayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9795BC5321F778BB009D443D /* RCTTHEOplayerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F93F2C21E7447B004E62E0 /* RCTTHEOplayerViewManager.swift */; };
-		9795BC5521F77A1B009D443D /* RCTThumbnailPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BC5421F77A1B009D443D /* RCTThumbnailPreview.swift */; };
-		9795BC5721F77A27009D443D /* RCTThumbnailPreviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BC5621F77A27009D443D /* RCTThumbnailPreviewManager.swift */; };
 		9795BC5921F77AB9009D443D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BC5821F77AB9009D443D /* Util.swift */; };
 		97F93F3021E7447C004E62E0 /* RCTTHEOplayer+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F93F2D21E7447B004E62E0 /* RCTTHEOplayer+Convert.swift */; };
 		97F93F3121E7447C004E62E0 /* RCTTHEOplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F93F2E21E7447B004E62E0 /* RCTTHEOplayerView.swift */; };
@@ -27,6 +25,7 @@
 		B5CFBF4F1EDE419400B4BE24 /* EXBuildConstants.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5CFBF4E1EDE419400B4BE24 /* EXBuildConstants.plist */; };
 		B5DB04801F3A684600E91581 /* shell-app-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B5DB047E1F3A684600E91581 /* shell-app-manifest.json */; };
 		B5DB04811F3A684600E91581 /* shell-app.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5DB047F1F3A684600E91581 /* shell-app.bundle */; };
+		BF5D279F7E9ED2BD3B1422AD /* libPods-theoplayerexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F314505245E831487CBE1FD7 /* libPods-theoplayerexample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,8 +47,6 @@
 		9726F23A21F622E000644011 /* theoplayerexample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "theoplayerexample-Bridging-Header.h"; sourceTree = "<group>"; };
 		9726F23B21F622E000644011 /* appBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appBridge.m; sourceTree = "<group>"; };
 		9726F23D21F6238B00644011 /* THEOplayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = THEOplayerSDK.framework; sourceTree = "<group>"; };
-		9795BC5421F77A1B009D443D /* RCTThumbnailPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTThumbnailPreview.swift; sourceTree = "<group>"; };
-		9795BC5621F77A27009D443D /* RCTThumbnailPreviewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTThumbnailPreviewManager.swift; sourceTree = "<group>"; };
 		9795BC5821F77AB9009D443D /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		97F93F2C21E7447B004E62E0 /* RCTTHEOplayerViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTTHEOplayerViewManager.swift; sourceTree = SOURCE_ROOT; };
 		97F93F2D21E7447B004E62E0 /* RCTTHEOplayer+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RCTTHEOplayer+Convert.swift"; sourceTree = SOURCE_ROOT; };
@@ -69,6 +66,7 @@
 		B5CFBF4E1EDE419400B4BE24 /* EXBuildConstants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EXBuildConstants.plist; sourceTree = "<group>"; };
 		B5DB047E1F3A684600E91581 /* shell-app-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "shell-app-manifest.json"; sourceTree = "<group>"; };
 		B5DB047F1F3A684600E91581 /* shell-app.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "shell-app.bundle"; sourceTree = "<group>"; };
+		F314505245E831487CBE1FD7 /* libPods-theoplayerexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-theoplayerexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9726F23E21F6238B00644011 /* THEOplayerSDK.framework in Frameworks */,
+				BF5D279F7E9ED2BD3B1422AD /* libPods-theoplayerexample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				9726F23D21F6238B00644011 /* THEOplayerSDK.framework */,
+				F314505245E831487CBE1FD7 /* libPods-theoplayerexample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,8 +126,6 @@
 				97F93F2D21E7447B004E62E0 /* RCTTHEOplayer+Convert.swift */,
 				97F93F2E21E7447B004E62E0 /* RCTTHEOplayerView.swift */,
 				97F93F2C21E7447B004E62E0 /* RCTTHEOplayerViewManager.swift */,
-				9795BC5621F77A27009D443D /* RCTThumbnailPreviewManager.swift */,
-				9795BC5421F77A1B009D443D /* RCTThumbnailPreview.swift */,
 				B56386471DB9693800A0598C /* AppDelegate.h */,
 				9795BC5821F77AB9009D443D /* Util.swift */,
 				B56386481DB9693800A0598C /* AppDelegate.m */,
@@ -191,7 +189,7 @@
 				TargetAttributes = {
 					B56386401DB9693800A0598C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = C8D8QTF339;
+						DevelopmentTeam = Q664YCW6NC;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
@@ -339,12 +337,10 @@
 				97F93F3021E7447C004E62E0 /* RCTTHEOplayer+Convert.swift in Sources */,
 				9795BC5921F77AB9009D443D /* Util.swift in Sources */,
 				B56386491DB9693800A0598C /* AppDelegate.m in Sources */,
-				9795BC5721F77A27009D443D /* RCTThumbnailPreviewManager.swift in Sources */,
 				B56386611DB96A5E00A0598C /* main.m in Sources */,
 				9795BC5321F778BB009D443D /* RCTTHEOplayerViewManager.swift in Sources */,
 				97F93F3121E7447C004E62E0 /* RCTTHEOplayerView.swift in Sources */,
 				9726F23C21F622E000644011 /* appBridge.m in Sources */,
-				9795BC5521F77A1B009D443D /* RCTThumbnailPreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,8 +456,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = C8D8QTF339;
+				DEVELOPMENT_TEAM = Q664YCW6NC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -676,6 +674,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.otro.theoplayerexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "theoplayerexample/theoplayerexample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -690,8 +689,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = C8D8QTF339;
+				DEVELOPMENT_TEAM = Q664YCW6NC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -700,6 +701,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.otro.theoplayerexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "theoplayerexample/theoplayerexample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
